@@ -1,0 +1,164 @@
+/* Estilos gerais do corpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5); /* Background gradiente */
+    color: #333;
+}
+
+/* Centralizar os títulos */
+h1, h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* Container do formulário e barra de busca */
+.form-container, .search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #ffffffcc;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Labels */
+label {
+    margin-right: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Estilizando os inputs */
+input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 250px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: border 0.3s ease;
+}
+
+/* Foco nos inputs */
+input:focus {
+    outline: none;
+    border-color: #ff8a65; /* Cor de foco vibrante */
+}
+
+/* Estilo dos botões */
+button {
+    padding: 10px 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: #ff8a65; /* Cor de destaque */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito hover no botão */
+button:hover {
+    background-color: #ff7043;
+}
+
+/* Estilo da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Cabeçalho da tabela */
+th {
+    background-color: #ff7043; /* Cabeçalho colorido */
+    color: white;
+    padding: 15px 10px;
+    font-size: 1.1em;
+}
+
+/* Células da tabela */
+td, th {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Linhas pares com cor alternada */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Efeito hover nas linhas da tabela */
+tr:hover {
+    background-color: #ffecb3;
+}
+
+/* Preço total em destaque */
+h2 span {
+    color: #ff7043;
+    font-weight: bold;
+}
+
+/* Centralizando os inputs do formulário */
+.form-container input, .search-container input {
+    width: 300px;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+/* Efeito de sombra nos inputs */
+input:focus {
+    border-color: #ff8a65;
+    box-shadow: 0 0 5px rgba(255, 138, 101, 0.5);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .form-container, .search-container {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    table {
+        font-size: 0.9em;
+    }
+
+    input, button {
+        width: 90%;
+    }
+}
+
+.payment-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.payment-container input {
+    padding: 10px;
+    width: 250px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.payment-container h3 {
+    margin-top: 10px;
+    color: #ff7043;
+    font-weight: bold;
+}
+
